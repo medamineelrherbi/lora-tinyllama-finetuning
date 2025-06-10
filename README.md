@@ -47,7 +47,8 @@ They were chosen based on best practices from LoRA literature, balancing memory,
 
 ## 📊 Evaluation with ROUGE
 
-The model’s performance was evaluated using the **ROUGE** metric with stemming enabled. This allows comparing generated responses to ground truth even if wording differs slightly.
+The model’s performance was evaluated using the **ROUGE** metric with stemming ("running" → "run", "evaluated" → "evaluat") enabled. This allows comparing generated responses to ground truth even if wording differs slightly.  
+**ROUGE** A set of metrics used to evaluate the quality of machine-generated text (e.g., summaries, responses) by comparing it to human-written reference ("ground truth") text. 
 
 ---
 
